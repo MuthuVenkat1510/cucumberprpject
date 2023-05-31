@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="10" time="135.043758">
+<testcase classname="To validate the Login the functionality" name="_2" time="32.297949">
+<system-out><![CDATA[Given User have be in Fb page...............................................passed
+When user have to enter the "12234"  and "< pass>"..........................passed
+And user have to click the login button.....................................passed
+Then check wheather user in invalid crendential page........................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the Login the functionality" name="_3" time="10.93303">
+<system-out><![CDATA[Given User have be in Fb page...............................................passed
+When user have to enter the "67890"  and "< pass>"..........................passed
+And user have to click the login button.....................................passed
+Then check wheather user in invalid crendential page........................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the Login the functionality" name="_4" time="10.491141">
+<system-out><![CDATA[Given User have be in Fb page...............................................passed
+When user have to enter the "12345"  and "< pass>"..........................passed
+And user have to click the login button.....................................passed
+Then check wheather user in invalid crendential page........................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the Login the functionality" name="to validate login functionality invalid email and empty password" time="11.393692">
+<system-out><![CDATA[Given User have be in Fb page...............................................passed
+And max the page............................................................passed
+When user have to enter the invalid email and empty password................passed
+And user have to click the login button.....................................passed
+Then check wheather user in invalid crendential page........................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the Login the functionality" name="to validate login functionality invalid email and valid password" time="10.293174">
+<system-out><![CDATA[Given User have be in Fb page...............................................passed
+When user have to enter the invalid email and valid password................passed
+And user have to click the login button.....................................passed
+Then check wheather user in invalid crendential page........................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the Login the functionality" name="to validate login functionality valid email and empty password" time="9.315775">
+<failure message="java.lang.IndexOutOfBoundsException: Index: 5, Size: 2&#13;&#10;&#9;at java.util.ArrayList.rangeCheck(Unknown Source)&#13;&#10;&#9;at java.util.ArrayList.get(Unknown Source)&#13;&#10;&#9;at java.util.Collections$UnmodifiableList.get(Unknown Source)&#13;&#10;&#9;at org.steps.LoginSteps.user_have_to_enter_the_valid_email_and_empty_password(LoginSteps.java:95)&#13;&#10;&#9;at ✽.user have to enter the valid email and empty password(file:src/test/resources/FeatureFolder/FBLoginFeature.feature:39)&#13;&#10;"><![CDATA[Given User have be in Fb page...............................................passed
+When user have to enter the valid email and empty password..................failed
+And user have to click the login button.....................................skipped
+Then check wheather user in invalid crendential page........................skipped
+
+StackTrace:
+java.lang.IndexOutOfBoundsException: Index: 5, Size: 2
+	at java.util.ArrayList.rangeCheck(Unknown Source)
+	at java.util.ArrayList.get(Unknown Source)
+	at java.util.Collections$UnmodifiableList.get(Unknown Source)
+	at org.steps.LoginSteps.user_have_to_enter_the_valid_email_and_empty_password(LoginSteps.java:95)
+	at ✽.user have to enter the valid email and empty password(file:src/test/resources/FeatureFolder/FBLoginFeature.feature:39)
+]]></failure>
+</testcase>
+<testcase classname="To validate the Login the functionality" name="to validate login functionality valid email and invalid password" time="11.722532">
+<system-out><![CDATA[Given User have be in Fb page...............................................passed
+When user have to enter the valid email and invalid password................passed
+And user have to click the login button.....................................passed
+Then check wheather user in invalid crendential page........................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the Login the functionality" name="to validate login functionality empty email and invalid password" time="13.684763">
+<system-out><![CDATA[Given User have be in Fb page...............................................passed
+When user have to enter the empty email and invalid password................passed
+And user have to click the login button.....................................passed
+Then check wheather user in invalid crendential page........................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the Login the functionality" name="to validate login functionality empty email and valid password" time="14.453789">
+<system-out><![CDATA[Given User have be in Fb page...............................................passed
+When user have to enter the empty email and valid password..................passed
+And user have to click the login button.....................................passed
+Then check wheather user in invalid crendential page........................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate the Login the functionality" name="to validate login functionality empty email and empty password" time="10.457913">
+<system-out><![CDATA[Given User have be in Fb page...............................................passed
+When user have to enter the empty email and empty password..................passed
+And user have to click the login button.....................................passed
+Then check wheather user in invalid crendential page........................passed
+]]></system-out>
+</testcase>
+</testsuite>
