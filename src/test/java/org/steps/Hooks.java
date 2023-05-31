@@ -21,9 +21,9 @@ public class Hooks extends BaseClass {
 			String replace = name.replace(" ", "_");
 			toTakeScreenShot(replace);
 		} else {
-			toQuit();
+			
 		}
-		
+		toQuit();
 	}
 
 }
